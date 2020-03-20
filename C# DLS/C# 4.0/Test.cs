@@ -14,10 +14,11 @@ namespace CShap40
         {
             //Atributos definidos dinamicamente
             Console.WriteLine("-------------Atributos definidos dinamicamente-------------");
-            var person = Factory.New.Person(
+            dynamic person = Factory.New.DynamicPerson;
+            person(
                 FirstName: "Andy",
                 LastName: "Sanchez",
-                Manager: Factory.New.Person(
+                Manager: Factory.New.DynamicPerson(
                     FirstName: "Bertrand",
                     LastName: "Le Roy"
                 ));
@@ -30,6 +31,12 @@ namespace CShap40
             auto.Mark = "Audi";
             auto.Color = "Black";
             Console.WriteLine($"Mark: {auto.Mark}, Color: {auto.Color}");
+
+            Console.WriteLine("----------Inicializar a traves de New cualquier tipo y implemetacion de index con reflection-------------");
+            var p = Factory.New.PersonReflectionIndex;
+            p["FirstName"] = "Eutelio";
+            p["LastName"] = "Vesalle";
+            Console.WriteLine($"FirstName: {p.FirstName}, LastName: {p.LastName}");
         }
     }
 }
