@@ -6,6 +6,7 @@ using CShap35;
 using CShap40;
 using System.Text;
 using ReflectionTest;
+using DynamicTest;
 
 namespace CShapDLS
 {
@@ -13,7 +14,7 @@ namespace CShapDLS
     {
         static void Main(string[] args)
         {
-            AnonymClass.RunTest();
+            ExpandorObjectTest.RunTest();
         }
 
     }

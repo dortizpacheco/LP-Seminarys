@@ -11,3 +11,16 @@
 /home/dany/Escritorio/LP/C# DLS/obj/Debug/netcoreapp3.0/C# DLS.pdb
 /home/dany/Escritorio/LP/C# DLS/obj/Debug/netcoreapp3.0/C# DLS.csproj.CoreCompileInputs.cache
 /home/dany/Escritorio/LP/C# DLS/obj/Debug/netcoreapp3.0/C# DLS.genruntimeconfig.cache
+/home/dany/Escritorio/LP Seminary/C# DLS/obj/Debug/netcoreapp3.0/C# DLS.csprojAssemblyReference.cache
+/home/dany/Escritorio/LP Seminary/C# DLS/obj/Debug/netcoreapp3.0/C# DLS.csproj.CoreCompileInputs.cache
+/home/dany/Escritorio/LP Seminary/C# DLS/obj/Debug/netcoreapp3.0/C# DLS.AssemblyInfoInputs.cache
+/home/dany/Escritorio/LP Seminary/C# DLS/obj/Debug/netcoreapp3.0/C# DLS.AssemblyInfo.cs
+/home/dany/Escritorio/LP Seminary/C# DLS/obj/Debug/netcoreapp3.0/C# DLS.dll
+/home/dany/Escritorio/LP Seminary/C# DLS/obj/Debug/netcoreapp3.0/C# DLS.pdb
+/home/dany/Escritorio/LP Seminary/C# DLS/bin/Debug/netcoreapp3.0/C# DLS
+/home/dany/Escritorio/LP Seminary/C# DLS/bin/Debug/netcoreapp3.0/C# DLS.deps.json
+/home/dany/Escritorio/LP Seminary/C# DLS/bin/Debug/netcoreapp3.0/C# DLS.runtimeconfig.json
+/home/dany/Escritorio/LP Seminary/C# DLS/bin/Debug/netcoreapp3.0/C# DLS.runtimeconfig.dev.json
+/home/dany/Escritorio/LP Seminary/C# DLS/bin/Debug/netcoreapp3.0/C# DLS.dll
+/home/dany/Escritorio/LP Seminary/C# DLS/bin/Debug/netcoreapp3.0/C# DLS.pdb
+/home/dany/Escritorio/LP Seminary/C# DLS/obj/Debug/netcoreapp3.0/C# DLS.genruntimeconfig.cache
