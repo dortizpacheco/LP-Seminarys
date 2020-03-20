@@ -1,3 +1,5 @@
-readme.md
 obj/
 bin/
+
+*.odt
+readme.md

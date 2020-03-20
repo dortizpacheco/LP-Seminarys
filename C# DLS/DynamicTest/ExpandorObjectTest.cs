@@ -1,6 +1,7 @@
 using System;
 using System.Dynamic;
 using System.Collections.Generic;
+using System.Reflection;
 
 namespace DynamicTest
 {
@@ -34,7 +35,7 @@ namespace DynamicTest
 
             
             //reflection no encuantra las propiedades dinamicas
-            foreach(var property in @dynamic.GetType().GetMembers())
+            foreach(var property in @dynamic.GetType().GetMembers(BindingFlags.NonPublic | BindingFlags.Instance))
                 Console.WriteLine($"{property.Name}");            
 
             // public sealed class ExpandoObject : ICollection<KeyValuePair<string, object>
