@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RcR68sc5j7km8YqoOK2ZRhLrTZo5fTwr0ezSGAABCsAagcvc5ZWE4GMvWP4e33nLQ6xHiWYewYGQhhSEKDaExQ==",
+  "success": true,
+  "projectFilePath": "/home/dany/Escritorio/LP/C# DLS/C# DLS.csproj",
+  "expectedPackageFiles": [
+    "/home/dany/.nuget/packages/microsoft.netcore.app.ref/3.0.0/microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
