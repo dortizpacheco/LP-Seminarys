@@ -13,16 +13,16 @@ namespace CShap40
         static public void Run()
         {
             //Atributos definidos dinamicamente
-        //    Console.WriteLine("-------------Atributos definidos dinamicamente-------------");
-        //    var person = Factory.New.Person(
-        //        FirstName: "Andy",
-        //        LastName: "Sanchez",
-        //        Manager: Factory.New.Person(
-        //            FirstName: "Bertrand",
-        //            LastName: "Le Roy"
-        //        ));
-        //    Console.WriteLine($"FirstName: {person.FirstName}, LastName: {person.LastName}");
-        //    Console.WriteLine($"Manager FirstName: {person.Manager.FirstName}, Manager LastName: {person.Manager.LastName}");
+            Console.WriteLine("-------------Atributos definidos dinamicamente-------------");
+            var person = Factory.New.Person(
+                FirstName: "Andy",
+                LastName: "Sanchez",
+                Manager: Factory.New.Person(
+                    FirstName: "Bertrand",
+                    LastName: "Le Roy"
+                ));
+            Console.WriteLine($"FirstName: {person.FirstName}, LastName: {person.LastName}");
+            Console.WriteLine($"Manager FirstName: {person.Manager.FirstName}, Manager LastName: {person.Manager.LastName}");
 
             //Inicializar a traves de New cualquir tipo
             Console.WriteLine("-------------Inicializar a traves de New cualquier tipo-------------");
